@@ -18,11 +18,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var totalBeforeTaxText: UITextField!
     @IBOutlet weak var taxText: UITextField!
     @IBOutlet weak var discountPercText: UITextField!
-    @IBOutlet weak var calcButton: UIButton!
+     @IBOutlet weak var calcButton: UIButton!
     
     @IBOutlet weak var outputLabel: UILabel!
-    
-    @IBOutlet weak var scrollView: UIScrollView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
