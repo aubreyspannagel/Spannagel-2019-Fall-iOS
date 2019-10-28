@@ -6,7 +6,7 @@
     </entity>
     <entity name="ClothingItems" representedClassName="ClothingItems" syncable="YES" codeGenerationType="class">
         <attribute name="itemBrand" optional="YES" attributeType="String"/>
-        <attribute name="itemColorPatten" optional="YES" attributeType="String"/>
+        <attribute name="itemColorPattern" optional="YES" attributeType="String"/>
         <attribute name="itemCondition" optional="YES" attributeType="String"/>
         <attribute name="itemSize" optional="YES" attributeType="String"/>
         <relationship name="category" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ClothingCategories" inverseName="items" inverseEntity="ClothingCategories"/>

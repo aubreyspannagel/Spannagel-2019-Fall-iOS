@@ -40,7 +40,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "CategoryCell")
-        cell?.accessoryType = .detailDisclosureButton
         cell?.textLabel?.text = categories[indexPath.row].categoryName
         return cell!}
 

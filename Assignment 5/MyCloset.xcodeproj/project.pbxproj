@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		68681719F55006C007B9552A /* Pods_MyCloset.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A0E885D9C9D529621EB9A4 /* Pods_MyCloset.framework */; };
+		BD99E9B52367405300C7F1EC /* AddItemPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD99E9B42367405300C7F1EC /* AddItemPopUpViewController.swift */; };
 		BDF6021C236381BF00174FA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF6021B236381BF00174FA5 /* AppDelegate.swift */; };
 		BDF6021E236381BF00174FA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF6021D236381BF00174FA5 /* SceneDelegate.swift */; };
 		BDF60220236381BF00174FA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF6021F236381BF00174FA5 /* ViewController.swift */; };
@@ -24,6 +25,7 @@
 		184027C3D66193C75DF83D26 /* Pods-MyCloset.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCloset.debug.xcconfig"; path = "Target Support Files/Pods-MyCloset/Pods-MyCloset.debug.xcconfig"; sourceTree = "<group>"; };
 		34A0E885D9C9D529621EB9A4 /* Pods_MyCloset.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyCloset.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AA46B7D556AD9B0239BF40 /* Pods-MyCloset.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCloset.release.xcconfig"; path = "Target Support Files/Pods-MyCloset/Pods-MyCloset.release.xcconfig"; sourceTree = "<group>"; };
+		BD99E9B42367405300C7F1EC /* AddItemPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemPopUpViewController.swift; sourceTree = "<group>"; };
 		BDF60218236381BF00174FA5 /* MyCloset.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCloset.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDF6021B236381BF00174FA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDF6021D236381BF00174FA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				BDF60229236381C000174FA5 /* LaunchScreen.storyboard */,
 				BDF6022C236381C000174FA5 /* Info.plist */,
 				BDF60224236381BF00174FA5 /* MyCloset.xcdatamodeld */,
+				BD99E9B42367405300C7F1EC /* AddItemPopUpViewController.swift */,
 			);
 			path = MyCloset;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 				BDF602352363D8DA00174FA5 /* AddCategoryPopUpViewController.swift in Sources */,
 				BDF60220236381BF00174FA5 /* ViewController.swift in Sources */,
 				BDF60226236381BF00174FA5 /* MyCloset.xcdatamodeld in Sources */,
+				BD99E9B52367405300C7F1EC /* AddItemPopUpViewController.swift in Sources */,
 				BDF6021C236381BF00174FA5 /* AppDelegate.swift in Sources */,
 				BDF6021E236381BF00174FA5 /* SceneDelegate.swift in Sources */,
 				BDF602372366335C00174FA5 /* ArticleListViewController.swift in Sources */,
