@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15400" systemVersion="18G95" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ClothingCategories" representedClassName="ClothingCategories" syncable="YES" codeGenerationType="class">
+        <attribute name="categoryName" optional="YES" attributeType="String"/>
+        <relationship name="items" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ClothingItems" inverseName="category" inverseEntity="ClothingItems"/>
+    </entity>
+    <entity name="ClothingItems" representedClassName="ClothingItems" syncable="YES" codeGenerationType="class">
+        <attribute name="itemBrand" optional="YES" attributeType="String"/>
+        <attribute name="itemColorPatten" optional="YES" attributeType="String"/>
+        <attribute name="itemCondition" optional="YES" attributeType="String"/>
+        <attribute name="itemSize" optional="YES" attributeType="String"/>
+        <relationship name="category" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ClothingCategories" inverseName="items" inverseEntity="ClothingCategories"/>
+    </entity>
+    <elements>
+        <element name="ClothingCategories" positionX="-99.9375" positionY="-11.4921875" width="128" height="73"/>
+        <element name="ClothingItems" positionX="221.26953125" positionY="-17.234375" width="128" height="118"/>
+    </elements>
+</model>
