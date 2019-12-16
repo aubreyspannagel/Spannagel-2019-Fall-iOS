@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>527887519193-2kuakm96b22f959s9sp2apfm1iv92jdh.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.527887519193-2kuakm96b22f959s9sp2apfm1iv92jdh</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAubATIOMQ3T5pPodmx-TPPWHNlTg4sgco</string>
+	<key>GCM_SENDER_ID</key>
+	<string>527887519193</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>edu.boisestate.Caravan</string>
+	<key>PROJECT_ID</key>
+	<string>caravan-48326</string>
+	<key>STORAGE_BUCKET</key>
+	<string>caravan-48326.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:527887519193:ios:e7fd65198fc3654db41dc8</string>
+	<key>DATABASE_URL</key>
+	<string>https://caravan-48326.firebaseio.com</string>
+</dict>
+</plist>
